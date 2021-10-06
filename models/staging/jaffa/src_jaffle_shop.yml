@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_dev
+    database: general-bq-exploration
+    tables:
+      - name: stg_customers
+      - name: stg_orders
+      - name: stg_payment
